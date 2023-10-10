@@ -1,2 +1,75 @@
+$primary: #40513b;
+
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+
+// signup
+.container_signup {
+  height: 100vh;
+}
+
+.container_form_signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary;
+}
+
+.signup_form {
+  background-color: white;
+  border-radius: 8%;
+  width: 60%;
+  height: 70%;
+  padding: 5%;
+}
+
+.rowinput_signup {
+  margin: 0%;
+  padding-left: 0%;
+}
+
+.rowinput1_signup {
+  margin: 0%;
+  padding-right: 0%;
+}
+
+.btn_signup {
+  background-color: $primary;
+}
+
+.text_signup {
+  color: white;
+  text-decoration: none;
+}
+// end signup
+
+// signin
+.container_signin {
+  height: 100vh;
+}
+
+.container_form_signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary;
+}
+
+.signin_form {
+  background-color: white;
+  border-radius: 8%;
+  width: 60%;
+  height: 70%;
+  padding: 5%;
+}
+
+.text_signin {
+  text-decoration: none;
+  color: #0089ed;
+}
+
+.btn_signin {
+  background-color: $primary;
+  color: white;
+}
